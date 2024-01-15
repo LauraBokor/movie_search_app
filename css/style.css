@@ -1,0 +1,16 @@
+#movies img {
+    width:100%;
+    object-fit: cover;
+}
+@media screen and (min-width: 960px) {
+    #movies img {
+        height:350px;
+    }
+}
+.image-blurred-edge {
+    background-image: url('WEDFEST\ on\ Twitter.jpg');
+    width: 100%;
+    height: 400px;
+    box-shadow: 0 0 10px 10px black inset;
+}
+
